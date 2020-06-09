@@ -1,0 +1,24 @@
+version: '2'
+services:
+  mailtest:
+    image: debian:buster-slim
+    hostname: ${HOSTNAME}
+    domainname: ${DOMAINNAME}
+    container_name: ${CONTAINER_NAME}
+    volumes:
+    - maildata:/var/mail
+    - mailstate:/var/mail-state
+    - maillogs:/var/log/mail
+    env_file:
+    - .env
+    cap_add:
+    - NET_ADMIN
+    - SYS_PTRACE
+    restart: always
+volumes:
+  maildata:
+    driver: local
+  mailstate:
+    driver: local
+  maillogs:
+    driver: local

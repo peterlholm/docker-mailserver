@@ -1,0 +1,3 @@
+mail._domainkey	IN	TXT	( "v=DKIM1; h=sha256; k=rsa; "
+	  "p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAy8czgAV/XVJeuKDfDoYn08hAnFxebdyITC90x9ed+5fDoU/EUNk6yHQZ+dHvmOjLAT+lchVsZycAVU8z0VXzyE/b+ibHhNicB3o5GMIQJKqEYUb9asbqjsG/5sqxwyL6aOs2Xdh9zSOkUXHaSx4WDJVP0LejuKOD/JUmAJvI0wWjfaYSGRNbSurSAoTKtr3v3D8rmq6DpRYNe9"
+	  "DM5gXovogEfkgu/n8JGgm1D0sTImN21SAJb/WZAAVALzNDg+UogB92zlsxsvNZgOaqiPIj4kNRu+U1ucBiTmX+gu1X+9L1lDT7FMxCq1ebDJqPQahQNihHRjzmO4V1wXWp9wlTLwIDAQAB" )  ; ----- DKIM key mail for idefix.holmnet.dk

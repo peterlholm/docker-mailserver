@@ -1,0 +1,11 @@
+use strict;
+
+@local_domains_acl = ( "l-holm.dk","holmnet.dk","holm-it.dk","h-t-consulting.dk", "holm-trojaborg.dk",
+                        "ankermoller.dk",".ankermoller.dk","nkermoeller.dk","nkermoller.dk",
+                        "delfin-blik.dk","elgum-kehler.dk",".net4us.dk","pelck.dk","pelck-olsen.dk",
+                        "riisboell.dk","rugh.dk","valdorf-hansen.dk",
+                        "max6.dk", "max6ingredienser.dk" );
+
+@local_domains_maps = ( [ "." ] );
+
+1;

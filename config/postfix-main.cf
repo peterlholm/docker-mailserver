@@ -1,0 +1,3 @@
+relay_domains = holmnet.dk holm-trojaborg.dk l-holm.dk h-t-consulting.dk holm-it.dk holm-trojaborg.dk net4us.dk .net4us.dk ankermoller.dk ankermoller.eu nkermoller.dk nkermoeller.dk delfin-blik.dk elgum-kehler.dk hagdrup.dk pelck.dk pelck-olsen.dk riisboell.dk rugh.dk valdorf-hansen.dk max6.dk max6ingredienser.dk
+
+transport_maps = texthash:/tmp/docker-mailserver/postfix-transport.cf
